@@ -61,7 +61,7 @@ public class MovieFragment extends Fragment {
             @Override
             public void onResponse(Response<MovieObject[]> response, Retrofit retrofit) {
                 if (response.isSuccess()) {
-                    MovieAdapter movieAdapter = new MovieAdapter(response.body());
+                    MovieAdapter movieAdapter = new MovieAdapter(response.body(), getContext());
                     mViews.movieRecyclerView.setAdapter(movieAdapter);
                     setContentShown(true);
                 }

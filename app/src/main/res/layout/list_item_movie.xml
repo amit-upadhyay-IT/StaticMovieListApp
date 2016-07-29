@@ -18,6 +18,7 @@
             android:layout_height="200dp"
             android:contentDescription="@null"
             android:scaleType="fitXY"
+            android:id="@+id/imageView"
             app:moviePosterUrl="@{fanArt.thumb}" />
 
         <TextView
