@@ -28,6 +28,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
     @Override
     public void onBindViewHolder(MovieViewHolder holder, int position) {
         holder.bind(movieObjects[position]);
+
     }
 
     @Override
@@ -46,6 +47,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
         public void bind(MovieObject movieObject) {
             binding.setFanArt(movieObject.movie.images.fanart);
             binding.movieTitleTV.setText(movieObject.movie.title);
+
         }
     }
 }

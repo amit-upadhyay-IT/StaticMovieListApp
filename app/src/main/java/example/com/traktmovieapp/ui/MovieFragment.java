@@ -80,7 +80,10 @@ public class MovieFragment extends Fragment {
     private void setContentShown(boolean shown) {
         mViews.movieRecyclerView.setVisibility(shown ? View.VISIBLE : View.GONE);
         mViews.progressBar.setVisibility(shown ? View.GONE : View.VISIBLE);
+
     }
+
+
 
     static class Views {
         final RecyclerView movieRecyclerView;
@@ -91,4 +94,5 @@ public class MovieFragment extends Fragment {
             progressBar = (ProgressBar) view.findViewById(R.id.progressBar);
         }
     }
+
 }

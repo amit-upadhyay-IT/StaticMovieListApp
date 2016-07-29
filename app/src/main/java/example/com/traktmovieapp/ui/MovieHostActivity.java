@@ -20,5 +20,7 @@ public class MovieHostActivity extends AppCompatActivity {
                 .beginTransaction()
                 .replace(R.id.containerLayout, new MovieFragment())
                 .commit();
+
     }
+
 }
