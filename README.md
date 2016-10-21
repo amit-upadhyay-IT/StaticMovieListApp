@@ -1,3 +1,5 @@
+# PLEASE NOTE, THIS PROJECT IS NO LONGER BEING MAINTAINED
+
 # StaticMovieListApp
 
 Android app which fetches the data from - http://www.json-generator.com/api/json/get/cpLylIjqWa
